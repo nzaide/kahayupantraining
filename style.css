@@ -374,3 +374,22 @@
     margin: 40px 10px 0 0;
   }
 }
+.mission-section {
+  color: var(--special, #020000);
+  text-transform: uppercase;
+  margin-top: 38px;
+  font: 700 50px/49.5px Saira Condensed, -apple-system, Roboto, Helvetica, sans-serif;
+}
+.mission-text {
+  color: var(--Dark-Grey, #504c4c);
+  text-transform: capitalize;
+  margin-top: 36px;
+  font: 400 16px/27px Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .mission-section {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+  }
